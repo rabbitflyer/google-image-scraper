@@ -3,6 +3,8 @@ A multithreaded Google Images scraper without Chromium. Only requires the python
 standard library, requests, and a few helper libraries. Aimed at being 
 cross-platform, with a preference towards linux. 
 
+**RELEVANT IMPROVEMENTS ARE ALL IN feature/filters, NOT IN main**
+
 **A Note:**
 
 Scraping too aggressively can create large server loads, and lead to 503 errors. I'm sure this is less of an issue for Google, but please be considerate.
